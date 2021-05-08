@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Startpage</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+	<div class="main"> <img class="crop" src="{{ image }}" align="middle" border="0" name="RandomImg" >
+		<div class="links">
+			<table>
+				<tbody>
+					<tr>
+						<td bgcolor="#D32F2F"><i class="material-icons">favorite</i></td>
+						<td bgcolor="#303F9F"><i class="material-icons">folder</i></td>
+						<td bgcolor="#388E3C"><i class="material-icons">book</i></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://mail.google.com/mail/u/0/#inbox">gmail</a></td>
+						<td><a href="https://www.reddit.com/r/all/">all</a></td>
+						<td><a href="https://asulearn.appstate.edu/">asulearn</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://anilist.co/user/smoothtoast/">anilist</a></td>
+						<td><a href="https://www.rockpapershotgun.com/">rps</a></td>
+						<td><a href="https://bannerweb.appstate.edu">appalnet</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://trakt.tv/dashboard">trakt</a></td>
+						<td><a href="https://www.pcgamer.com/">pcg</a></td>
+						<td><a href="">link15</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://animebytes.tv/">animebytes</a></td>
+						<td><a href="https://www.newyorker.com/">nyr</a></td>
+						<td><a href="">link16</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://calendar.google.com/calendar/r#main_7">calendar</a></td>
+						<td><a href="https://longform.org/">long</a></td>
+						<td><a href="">link17</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href=https://snahp.it/">snahp</a></td>
+						<td><a href="https://www.notion.so/Articles-to-Read-3febbdb46cf840f29b02fe70ddf937e9">to read</a></td>
+						<td><a href="https://dw.appstate.edu/Dashboard/login.html">dw</a></td>
+					</tr>
+					<tr>
+						<td bgcolor="#F44336"><i class="material-icons">movie</i></td>
+						<td bgcolor="#7cb342"><i class="material-icons">dashboard</i></td>
+						<td bgcolor="#616161"><i class="material-icons">subject</i></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://www.netflix.com/browse">netflix</a></td>
+						<td><a href="https://boards.4channel.org/wg/">/wg/</a></td>
+						<td><a href="https://www.notion.so/Links-96f749788a5a45d297c9ac9f491eea0e">links</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://www.amazon.com/b/ref=lp_2676882011_nav_AccountFlyout_piv?rh=i%3Aprime-instant-video%2Cn%3A2676882011&ie=UTF8&node=2676882011">prime</a></td>
+						<td><a href="https://boards.4channel.org/w/">/w/</a></td>
+						<td><a href="http://raspberrypi/">omv</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://www.hulu.com/">hulu</a></td>
+						<td><a href="https://boards.4channel.org/a/">/a/</a></td>
+						<td><a href="https://9anime.to/">9anime</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://www.myrunningman.com/">myrm</a></td>
+						<td><a href="https://boards.4channel.org/g/">/g/</a></td>
+						<td><a href="https://slickdeals.net/">slick</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href=https://play.hbomax.com/page/urn:hbo:page:home">hbo</a></td>
+						<td><a href="https://boards.4channel.org/v/">/v/</a></td>
+						<td><a href="https://github.com/Igglybuff/awesome-piracy">free-git</a></td>
+					</tr>
+					<tr class="theader">
+						<td><a href="https://www.youtube.com/feed/subscriptions">yt</a></td>
+						<td><a href="https://boards.4channel.org/tv/">/tv/</a></td>
+						<td><a href="https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/index">free-red</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="searchb">
+			<form method="get" action="{{ url }}">
+			<input type="text" name="{{ name }}" placeholder="search" autocomplete="off" autofocus>
+			</form>
+		</div>
+	</div>
+	</body>
+</html>
